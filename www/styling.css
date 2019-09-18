@@ -1,0 +1,39 @@
+#chooseButtonL {
+    display: none;
+    animation-duration: 1s;
+    animation-name: slideLeft;
+}
+
+.idea {
+    margin-left: 50%;
+    opacity: 100%;
+}
+
+.left {
+    margin-left: -10%;
+    opacity: 0%;
+    -webkit-transition: margin-left 0.5s;
+    -o-transition: margin-left 0.5s;
+}
+.right {
+    margin-left: 100%;
+    -webkit-transition: margin-left 0.5s;
+    -o-transition: margin-left 0.5s;
+}
+
+@-webkit-keyframes cssAnimation {
+from {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(100px);
+}
+to {
+    -webkit-transform: rotate(0deg) scale(2) skew(0deg) translate(100px);
+}
+}
+
+#chooseButtonR {
+    display: none;
+}
+
+#startButton {
+    display: block;
+}
