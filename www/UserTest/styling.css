@@ -1,0 +1,42 @@
+html {
+    overflow: hidden;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-size: 37px;
+}
+
+.text {
+    position: absolute;
+    display: inline-block;
+    font-size: 110%;
+    top: 77%;
+    left: 20.3%;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 2px solid #4CAF50;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    top: 45%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 20%;
+    height: auto;
+    left: 40%;
+}
+
+.button:hover {
+    background-color: #69e76e;
+    cursor: pointer;
+}
